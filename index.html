@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Isomorphic-Checker</title>
   <link rel="stylesheet" href="assets/styles/style.css">
 </head>
+
 <body>
-  
 
+  <header>
+    <h1>Isomorphic String Checker</h1>
+    <p>
+      Two strings are said to be Isomorphic if there is a one-to-one mapping
+      for every character of the strings.
+    </p>
+  </header>
 
+  <form>
+    <div class="input-feild">
+      <label for="str1">First String:</label>
+      <input type="text" name="str1" id="string-one" placeholder="Enter first string" />
+    </div>
 
+    <div class="input-feild">
+      <label for="str2">Second String:</label>
+      <input type="text" name="str2" id="string-two" placeholder="Enter first string" />
+    </div>
 
-  <script src="assets/scripts/script.js"></script>
+    <button id="submit-button" type="submit">Check</button>
+  </form>
+
+  <div class="result" id="resultt"></div>
+
+<script src="assets/scripts/script.js"></script>
 </body>
+
 </html>
